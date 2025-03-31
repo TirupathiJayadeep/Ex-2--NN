@@ -1,7 +1,4 @@
-<H3>Name Tirupathi Jayadeep</H3>
-<H3>Register no. 212223240169</H3>
-<H3>Date 29-03-2025</H3>
-<H3>Experiment No. 2 </H3>
+# Experiment No. 2 
 ## Implementation of Perceptron for Binary Classification
 # AIM:
 To implement a perceptron for classification using Python<BR>
@@ -9,6 +6,11 @@ To implement a perceptron for classification using Python<BR>
 # EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
+
+<H3>Name Tirupathi Jayadeep</H3>
+<H3>Register no. 212223240169</H3>
+<H3>Date 29-03-2025</H3>
+
 
 # RELATED THEORETICAL CONCEPT:
 A Perceptron is a basic learning algorithm invented in 1959 by Frank Rosenblatt. It is meant to mimic the working logic of a biological neuron. The human brain is basically a collection of many interconnected neurons. Each one receives a set of inputs, applies some sort of computation on them and propagates the result to other neurons.<BR>
@@ -49,7 +51,7 @@ STEP 9:For ‘N ‘ iterations ,do the following:<BR>
 STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
 # PROGRAM:
-
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -121,7 +123,7 @@ plt.plot(range(1, len(classifier.misclassified_samples) + 1),classifier.misclass
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
-
+```
 # OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/bd9f5489-9efa-4ad2-b5a5-45d0cbbd97d5)
